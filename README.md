@@ -12,14 +12,14 @@ To write and execute an Assembly language program to perform the fibonacci serie
 ## ALGORITHM
 1. **Start**
 2. **Input**: Read the number `n`.
-3. **Initialize**:
+4. **Initialize**:
    - Set factorial to `1`.
    - Set `i` to `1`.
-4. **Loop**: While `i` is less than or equal to `n`:
+5. **Loop**: While `i` is less than or equal to `n`:
    - Multiply factorial by `i`.
    - Increment `i` by `1`.
-5. **Output**: Store or print the value of factorial.
-6. **End**
+6. **Output**: Store or print the value of factorial.
+7. **End**
 
 ## PROGRAM
 ```
@@ -48,6 +48,7 @@ MOV B, R5
 DJNZ R7, NEXT_TERM
 HERE: SJMP HERE     
 END
+
 ```
 ## OUTPUT
 <img width="997" height="288" alt="Screenshot 2025-10-23 141527" src="https://github.com/user-attachments/assets/874704b5-706c-4891-ae40-0355d825ca37" />
